@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const lines = fs.readFileSync('dayTwo.txt', {encoding: 'utf-8'}).split('\n').filter(x => x).map(x => x)
+const lines = fs.readFileSync('dayTwo.txt', {encoding: 'utf-8'}).split('\n').filter(x => x)
 
 const splitLines = []
 

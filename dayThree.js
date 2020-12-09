@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const lines = fs.readFileSync('dayThree.txt', {encoding: 'utf-8'}).split('\n').filter(x => x).map(x => x)
+const lines = fs.readFileSync('dayThree.txt', {encoding: 'utf-8'}).split('\n').filter(x => x)
 
 function dayThree(matrix, xMvmnt, yMvmnt){
 let trees = 0;
